@@ -1,0 +1,9 @@
+/* Custom CSS
+ * --------------------------------------- */
+.ts, .topic {
+	width: 200px;
+}
+
+.ts, .topic, .message {
+	font-size: small;
+}
