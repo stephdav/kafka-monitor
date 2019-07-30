@@ -58,7 +58,7 @@ function usage {
 #         Return : -
 # ****************************************************************************
 function startApp {
-  java "-D$1" -classpath 'lib/*' $mainClass $appPort &
+  java "-D$1" -classpath 'ext/:lib/*' $mainClass $appPort > /dev/null 2>&1 &
 }
 
 # ############################################################################
