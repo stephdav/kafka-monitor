@@ -1,9 +1,20 @@
 /* Custom CSS
  * --------------------------------------- */
-.ts, .topic {
-	width: 200px;
+.ts {
+	font-size: small;
 }
 
-.ts, .topic, .message {
+.topic {
+	font-size: larger;
+	font-weight: bold;
+}
+
+.field {
 	font-size: small;
+	font-style: italic;
+}
+
+.highlighted {
+	font-weight: bold;
+	color: #004085;
 }
